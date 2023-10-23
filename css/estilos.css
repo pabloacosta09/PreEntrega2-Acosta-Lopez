@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*HEADER / NAV*/
+.navbar {
+    background-color: #000000;
+}
+
+.logoGim {
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+/*CONTENIDO PRINCIPAL*/
+
+/*Carrusel*/
+.carousel-caption p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+/*Servicios*/
+.card {
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-button {
+    margin-top: auto;
+}
+
+.cardDos,
+.cardTres {
+    margin-top: 30px;
+}
+
+.card-img-top {
+    height: 50%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.2rem;
+}
+
+/*Icono wsp*/
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp img {
+    width: 50px;
+    height: auto;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer h3 {
+    font-size: 20px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ff0000;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icons i:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    background-color: rgb(94, 51, 51);
+    border-top: 1px solid #ff0000;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+/*Seccion blog*/
+.fondoPagina {
+    background-image: url("../imagenes/blog-fondo.jpg");
+    background-color: #f8f8f8;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-section, .tips-section, .history-section, .testimonial-section {
+    margin: 30px 0;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2, h3 {
+    color: #ff0000;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.testimonial img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+/*Seccion Profesores*/
+.teacher-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.teacher-card img {
+    max-width: 150px;
+    border: 3px solid #ff5733;
+    border-radius: 50%;
+}
+
+.teacher-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.teacher-card p {
+    color: #666;
+}
+
+.teacher-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/*FORMULARIO*/
+.container {
+    max-width: 800px;
+}
+h1 {
+    text-align: center;
+}
+hr {
+    border-color: #ccc;
+}
+.form-label {
+    font-weight: bold;
+}
+.form-control,
+.form-select {
+    margin-bottom: 10px;
+}
+.btn {
+    margin-top: 10px;
+}
+
+/*HORARIOS*/
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Estilos específicos para la primera tabla (musculación) */
+table:nth-of-type(1) {
+    background-color: #f0f0f0;
+}
+table:nth-of-type(1) thead {
+    background-color: #333333;
+    color: white;
+}
+table:nth-of-type(1) h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Estilos específicos para la segunda tabla (funcional) */
+table:nth-of-type(2) {
+    background-color: #e0e0e0;
+}
+table:nth-of-type(2) thead {
+    background-color: #555555;
+    color: white;
+}
+table:nth-of-type(2) h2 {
+    margin: 0;
+    padding: 10px;
+}
